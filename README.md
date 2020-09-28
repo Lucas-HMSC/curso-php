@@ -1,3 +1,3 @@
 # Curso de PHP
 ---
- - Curso de PHP, pelo Curso em Vídeo com o Professor Guanabara.
+ - Curso de PHP para Iniciantes, pelo Curso em Vídeo com o Professor Guanabara.
