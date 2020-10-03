@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 08</title>
+    <link rel="stylesheet" href="../_css/estilo.css" />
+</head>
+<body>
+    <div>
+        <form action="02idade.php" method="get">
+            <label for="vNome">Nome: </label>
+            <input type="text" name="nome" id="vNome">
+            <br>
+            <label for="vAno">Ano de Nascimento: </label>
+            <input type="number" name="ano" id="vAno">
+            <br>
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="masc" value="homem">
+                <label for="masc">Masculino</label>
+                <input type="radio" name="sexo" id="fem" value="mulher">
+                <label for="fem">Feminino</label>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
